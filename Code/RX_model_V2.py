@@ -15,7 +15,7 @@ import xgboost as xgb
 from xgboost.sklearn import XGBClassifier
 import gc
 from sklearn.metrics import make_scorer, precision_score, recall_score, f1_score, accuracy_score, confusion_matrix, ConfusionMatrixDisplay, average_precision_score, roc_curve, auc, classification_report, roc_auc_score, average_precision_score
-from sklearn.model_selection import train_test_split, StratifiedShuffleSplit, RandomizedSearchCV, GridSearchCV, cross_val_score, StratifiedKFold, cross_validate
+from sklearn.model_selection import train_test_split, RandomizedSearchCV, GridSearchCV, cross_val_score, StratifiedKFold, cross_validate
 import datetime
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, label_binarize
 import matplotlib.pyplot as plt
